@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 
-export default function useCounter(step = 1) {
-  const [counter, setCounter] = useState(0);
+export default function useCounter({ start = 0, step = 1 }) {
+  const [counter, setCounter] = useState(start);
 
   if (step === 0) step = 1;
 

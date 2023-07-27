@@ -2,8 +2,8 @@ import Card from "components/UI/Card";
 import useCounter from "hooks/useCounter";
 import styles from "./Counter.module.css";
 
-export default function Counter({ step = 1 }) {
-  const counter = useCounter(step);
+export default function Counter({ start = 0, step = 1 }) {
+  const counter = useCounter({ start, step });
 
   return (
     <>
