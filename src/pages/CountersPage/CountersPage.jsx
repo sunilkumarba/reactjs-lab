@@ -8,8 +8,8 @@ export default function CountersPage(props) {
       <h1>Counters</h1>
 
       <Card className={styles["counters-container"]}>
-        <Counter />
-        <Counter />
+        <Counter start={1} step={1} />
+        <Counter start={0} step={-1} />
       </Card>
     </>
   );
