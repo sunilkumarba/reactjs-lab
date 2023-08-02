@@ -1,0 +1,36 @@
+.click-counter-container {
+  font-size: 1.2rem;
+  padding: 1em;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  width: max(20rem, 80%);
+  margin: 1rem auto;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  min-width: 8rem;
+  font-size: 1rem;
+  padding: 0.8em;
+  cursor: pointer;
+  border-radius: 4px;
+}
+
+.btn-counter {
+  background-color: rgb(204, 204, 204);
+  border: 1px solid rgb(163, 163, 163);
+}
+.btn-counter:hover {
+  background-color: rgb(219, 219, 219);
+}
+
+.btn-reset {
+  background-color: rgb(113, 0, 0);
+  color: white;
+  border: 1px solid rgb(64, 0, 0);
+}
+.btn-reset:hover {
+  background-color: rgb(133, 1, 1);
+}
