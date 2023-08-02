@@ -10,6 +10,7 @@ export default function CountersPage(props) {
       <Card className={styles["counters-container"]}>
         <Counter start={1} step={1} />
         <Counter start={0} step={-1} />
+        <Counter start={0} step={2} stop={20} />
       </Card>
     </>
   );
